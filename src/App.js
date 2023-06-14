@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>hello world</h1>
+      <h1>this is the redux practice operation</h1>
     </div>
   );
 }
