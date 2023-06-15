@@ -1,11 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import "bootstrap/dist/css/bootstrap.css";
+//import Red from "./Component/Red";
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
-      <h1>this is the redux practice operation</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="*" element={<Home />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
