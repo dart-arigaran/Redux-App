@@ -5,7 +5,8 @@ export const Productlist = [
     image:
       "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
     title: "Tree image",
-    body: "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+    stock: "10",
+    body: "quia et suscipit\nsuscipit recusanderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
   },
   {
     userId: 1,
@@ -13,7 +14,9 @@ export const Productlist = [
     image:
       "https://ideas.ted.com/wp-content/uploads/sites/3/2020/05/final_animals-homeschooling_credit-alamy.jpg",
     title: "Elephant",
-    body: "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
+    stock: "20",
+
+    body: "est rerum tempore vitlores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
   },
   {
     userId: 1,
@@ -21,7 +24,9 @@ export const Productlist = [
     image:
       "https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     title: "Parrot",
-    body: "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
+    stock: "156",
+
+    body: "et iusto sed quo iure\ndoloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
   },
   {
     userId: 1,
@@ -29,14 +34,18 @@ export const Productlist = [
     image:
       "https://hips.hearstapps.com/hmg-prod/images/cute-baby-animals-1558535060.jpg?crop=1.00xw:0.669xh;0,0.158xh&resize=1200:*",
     title: "Dog",
-    body: "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
+    stock: "50",
+
+    body: "ullam et saepe reiciendisovident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
   },
   {
     userId: 1,
     id: 5,
     image: "https://a-z-animals.com/media/tiger_laying_hero_background.jpg",
     title: "Tiger",
-    body: "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque",
+    stock: "00",
+
+    body: "repudiandae veniam quaers possimus esse voluptatibus quis\nest aut tenetur dolor neque",
   },
   {
     userId: 1,
@@ -44,7 +53,9 @@ export const Productlist = [
     image:
       "https://images.unsplash.com/photo-1566650554919-44ec6bbe2518?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwYW5pbWFsfGVufDB8fDB8fHww&w=1000&q=80",
     title: "Peachock",
-    body: "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae",
+    stock: "500",
+
+    body: "ut aspernatur cnobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae",
   },
   {
     userId: 1,
@@ -52,15 +63,19 @@ export const Productlist = [
     image:
       "https://images.pexels.com/photos/2295744/pexels-photo-2295744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     title: "Wolf",
-    body: "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas",
+    stock: "0",
+
+    body: "dolore placeae\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas",
   },
   {
     userId: 1,
     id: 8,
     image:
       "https://imageio.forbes.com/specials-images/imageserve/5faad4255239c9448d6c7bcd/Best-Animal-Photos-Contest--Close-Up-Of-baby-monkey/960x0.jpg?format=jpg&width=960",
-    title: "monkey",
-    body: "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae",
+    title: "Monkey",
+    stock: "30",
+
+    body: "dignissimos aperiam dolorem quius cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae",
   },
   {
     userId: 1,
@@ -68,7 +83,9 @@ export const Productlist = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo4MGkcSQRCFAypbf9-O4ehdgh_-khR6A-GVBL9zwbdQ&s",
     title: "Lion ",
-    body: "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas",
+    stock: "0",
+
+    body: "consectetur anet est aut quod aut provident voluptas autem voluptas",
   },
   {
     userId: 1,
@@ -76,14 +93,21 @@ export const Productlist = [
     image:
       "https://render.fineartamerica.com/images/images-new-artwork/images-medium-5/awesome-solitude-bess-hamiti.jpg",
     title: "Red tree ",
-    body: "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error",
+    stock: "108",
+
+    body: "quo et expenquos veniam quod sed accusamus veritatis error",
   },
-  //   {
-  //     userId: 2,
-  //     id: 11,
-  //     title: "et ea vero quia laudantium autem",
-  //     body: "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi",
-  //   },
+
+  {
+    userId: 2,
+    id: 11,
+    image:
+      "https://m.media-amazon.com/images/I/41Xe96WtZoL._SX300_SY300_QL70_FMwebp_.jpg",
+    model: "Redmi phone ",
+    type: "prone",
+    body: "delectus cusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi",
+  },
+
   //   {
   //     userId: 2,
   //     id: 12,
